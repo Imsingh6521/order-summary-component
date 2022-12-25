@@ -1,0 +1,134 @@
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --font: 'Red Hat Display' sans-serif;
+    --font-s: 15px;
+}
+
+* {
+    font-family: var(--font);
+}
+
+body {
+    margin: 0;
+}
+
+#bg-img {
+    width: 100%;
+    padding: 0;
+}
+
+.container {
+    position: absolute;
+    top: 15%;
+    /* left: 15%; */
+}
+
+.order {
+    font-weight: 900;
+    padding-top: 8%;
+    padding-bottom: 3%;
+}
+
+.main-card {
+    background-color: #fff;
+    border-radius: var(--font-s);
+    width: 450px;
+    height: auto;
+    text-align: center;
+}
+
+.main-img {
+    border-radius: var(--font-s) var(--font-s) 0 0;
+}
+
+.para1 {
+    width: 80%;
+    margin: 0 8%;
+    color: var(--desaturated-blue);
+    font-weight: 500;
+}
+
+.plan {
+    width: 80%;
+    height: 90px;
+    background-color: var(--very-pale-blue);
+    margin: 4% 5% 5% 10%;
+    border-radius: 10px;
+}
+
+.music {
+    margin-top: 6%;
+    position: relative;
+    left: 4px;
+}
+
+.annual {
+    font-weight: 700;
+    position: relative;
+    left: 5%;
+}
+
+.cost {
+    color: var(--desaturated-blue);
+    font-weight: 500;
+    position: relative;
+    top: 30%;
+    right: 23%;
+}
+
+#btnn1 {
+    font-weight: 700;
+    font-size: var(--font-s);
+}
+
+#btnn1:hover {
+    color: var(--bright-blue);
+    opacity: 0.6;
+}
+
+.btn1 {
+    position: relative;
+    top: 15%;
+    right: 3%;
+}
+
+#btn2 {
+    padding: 2% 6%;
+}
+
+#btnn2 {
+    background-color: var(--bright-blue);
+    font-size: var(--font-s);
+}
+
+#btnn2:hover {
+    background-color: var(--bright-blue);
+    opacity: 0.5;
+}
+
+#btn3 {
+    padding: 2% 6% 8% 6%;
+}
+
+#btnn3 {
+    color: var(--dark-blue);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: var(--font-s);
+}
+#btnn3:hover {
+    color: var(--desaturated-blue);
+}
+
+/* footer section */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+footer {
+    position: absolute;
+    bottom: 1px;
+}
